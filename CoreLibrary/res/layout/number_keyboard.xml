@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 数字键盘布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:gravity="center">
+    
+    <!-- 第一排 1-3数字布局 -->
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <!-- 1 -->
+	    <Button 
+	        android:id="@+id/btn_one"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/one"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        style="@style/number_text_style"
+	        android:onClick="doNumberClick"/>
+	    <!-- 2 -->
+	    <Button 
+	        android:id="@+id/btn_two"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/two"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        style="@style/number_text_style"/>
+	    <!-- 3 -->
+	    <Button 
+	        android:id="@+id/btn_three"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/three"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        style="@style/number_text_style"/>
+    </RelativeLayout>
+    <!-- 第2排 4-6数字布局 -->
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+        <!-- 4 -->
+	    <Button 
+	        android:id="@+id/btn_four"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/four"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        style="@style/number_text_style"/>
+	    <!-- 5 -->
+	    <Button 
+	        android:id="@+id/btn_five"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/five"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        style="@style/number_text_style"/>
+	    <!-- 6 -->
+	    <Button 
+	        android:id="@+id/btn_six"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/six"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        style="@style/number_text_style"/>
+    </RelativeLayout>
+	<!-- 第3排 7-9数字布局 -->
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+        <!-- 7 -->
+	    <Button 
+	        android:id="@+id/btn_seven"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/seven"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        style="@style/number_text_style"/>
+	    <!-- 8 -->
+	    <Button 
+	        android:id="@+id/btn_eight"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/eight"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        style="@style/number_text_style"/>
+	    <!-- 9 -->
+	    <Button 
+	        android:id="@+id/btn_neigh"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/neigh"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        style="@style/number_text_style"/>
+    </RelativeLayout>
+    <!-- 第4排 0数字布局 -->
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+	    <!-- 0 -->
+	    <Button 
+	        android:id="@+id/btn_zero"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/zero"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        style="@style/number_text_style"/>
+    </RelativeLayout>
+</LinearLayout>

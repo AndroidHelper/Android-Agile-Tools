@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="alipay_text_color_black">#FF000000</color>
+    <color name="alipay_text_color_white">#FFFFFFFF</color>
+    <color name="alipay_text_color_gray">#FF505050</color>
+    <color name="alipay_toast_backgound_color">#FF424242</color>
+    <color name="alipay_btn_color">#FFFFFF</color>
+    <color name="alipay_text_color_item_title">#FF666666</color>
+    <color name="alipay_second_btn_text_color">#FF496ea3</color>
+    <color name="alipay_text_color_checkbox">#FF333333</color>
+    <color name="alipay_background_color">#FFF2F2F2</color>
+    <color name="alipay_download_text_nomal">#FF3366CC</color>
+    <color name="alipay_download_text_pressed">#FFFFFFFF</color>
+    <color name="alipay_download_back_nomal">#FFFFFFFF</color>
+    <color name="alipay_download_back_focus">#FF6698E7</color>
+    <color name="alipay_download_back_pressed">#FF3366CC</color>
+    <color name="alipay_dialog_tiltle_blue">#2277BB</color>
+
+</resources>

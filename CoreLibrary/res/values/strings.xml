@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading">系统初始化中</string>
+    <string name="app_name">包</string>
+    <string name="base_progress_dialog_ok">确定</string>
+    <string name="base_progress_dialog_loading">正在加载…</string>
+    <string name="base_progress_dialog_cancel">取消</string>
+    <string name="base_progress_dialog_title">提示</string>
+    <string name="base_exit_app">确认退出应用吗？</string>
+    <string name="base_net_error">网络异常,请检查网络连接!</string>
+    <string name="press_capture_text">将二维码图案放进取景框内 \n 即可自动扫描</string>
+
+    <string name="zero">0</string>
+	<string name="one">1</string>
+	<string name="two">2</string>
+	<string name="three">3</string>
+	<string name="four">4</string>
+	<string name="five">5</string>
+	<string name="six">6</string>
+	<string name="seven">7</string>
+	<string name="eight">8</string>
+	<string name="neigh">9</string>
+	<string name="please_input_pwd">请输入数字密码</string>
+	<string name="input_again">重输</string>
+	<string name="delete">删除</string>
+	<string name="setting_pwd_success">密码设置成功</string>
+	<string name="not_equals">两次输入的密码不一致，请重新输入 !</string>
+	<string name="please_input_pwd_again">确认密码</string>
+	
+	 <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+    <string name="forget_gesture_password_str">忘记手势密码</string>
+</resources>
